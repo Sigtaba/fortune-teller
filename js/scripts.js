@@ -14,10 +14,16 @@ $(function() {
 
       if (total < 30) {
         $('#wine-response').show();
+        $('#whocares-response').hide();
+        $('#yes-response').hide();
       } else if ((40 < total) && (total < 60)) {
         $('#yes-response').show();
+        $('#whocares-response').hide();
+        $('#wine-response').hide();
       } else {
         $('#whocares-response').show();
+        $('#yes-response').hide();
+        $('#wine-response').hide();
       }
     });
   });

@@ -1,3 +1,36 @@
 #wine-response, #yes-response, #whocares-response {
   display: none;
 }
+
+body {
+  background-image: url("http://wac.492F.edgecastcdn.net/80492F/img/homeBG.gif");
+  font-size: 18px;
+  color: yellow;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.container {
+  background-color: #15f2dc;
+  border-radius: 5px 5px;
+
+}
+
+.jumbotron {
+  background-color: red;
+  color: green;
+  text-shadow: 2px 2px yellow;
+}
+
+button {
+  background-color: red;
+}
+
+img {
+  border: 10px solid red;
+  border-radius: 5px;
+}
+
+input {
+  border: 10px solid red;
+}

@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel=icon href="img/favicon.jpg">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
     <script
     src="https://code.jquery.com/jquery-3.2.1.js"
@@ -13,9 +15,13 @@
   <body>
     <div class="container">
        <div class="jumbotron">
-         <h2>Dr Steve Brule - F'yer Fortrune!</h2>
+         <h2>Dr Steve Brule - F'yer Fortrune! <i class="em em-crystal_ball"></i></h2>
          <h4>Check all that apply, ya dringus!</h4>
        </div>
+       <div class="row">
+         <div class="col-md-6">
+
+
        <form id="brulesFortune">
          <div class="form-group">
            <strong><p>My favorite food is...</p></strong>
@@ -42,6 +48,11 @@
          </div>
         <button type="submit">Submit Survey</button>
        </form>
+     </div>
+     <div class="col-md-6">
+       <img src="img/tayne.gif" alt="Tayne" />
+     </div>
+   </div>
        <span id="wine-response">
          <h3><b>Yer fortune is...</b></h3>
          <img src="img/wine.gif">
